@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* Este es un documento CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*estilos a todo el cuerpo del archivo html*/
+body{
+	background: #666;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 1.6;
+}
+.container{
+	width: 70%;
+	max-width: 900px;
+	margin: 0 auto;
+	background: #333;
+	padding: 20px;
+	position: relative;
+	height: 555px;
+	border-radius: 30px;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav{
+	background-color: #f4f4f4;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a{
+	text-decoration: none;
+	color: #333;
+	margin-right: 10px;
+}
+nav a:hover{
+	color: #666;
+}
+main {
+	padding: 20px;
+}
+article {
+	margin-bottom: 30px;
+}
+article h2{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+article ul{
+	list-style: none;
+	padding: 0;
+}
+article li{
+	margin-bottom: 5px;
+}
+article p{
+	margin: 0;
+}
+h1{
+    margin-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+    color: #fff;
+}
+h2{
+	font-size: 1.1em;
+	text-align: left;
+	margin-top: 30px;
+    color: #fff;
+}
+ul li {
+    color: #fff;
+}
+p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #fff;
+}
+/* estilos básicos a imagen y video*/
+img {
+    width: 300px;
+	position: absolute;
+	left: 640px;
+	border-radius: 30px;
+}
+video {
+   position: relative;
+   width: 300px;
+   height: 200px;
+   right: -620px;
+   top: -170px;
+  border-radius: 30px;
+}
+/* estilos al pie de página*/
+.pie{
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    bottom: 0;
+}
+
+
+
